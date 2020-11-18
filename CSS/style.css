@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 1170 px;
+  margin: auto;
+}
+header {
+  background: url("https://i.postimg.cc/YjcJg24M/aa.jpg");
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.nav-area li {
+  display: inline-block;
+}
+.nav-area li a {
+  color: burlywood;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.nav-area li a:hover {
+  background: white;
+  color: burlywood;
+}
+
+.WelcomeText {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+}
+.WelcomeText h1 {
+  margin-bottom: 60%;
+  color: burlywood;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.WelcomeText a:hover {
+  background: #fff;
+  color: burlywood;
+}
+
+.home {
+  color: burlywood;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 55% 75% 25% 0%;
+  width: 100%;
+  height: 55%;
+  background-color: tomato;
+}
+.about {
+  color: burlywood;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 85% 75% 25% 0%;
+  width: 100%;
+  height: 55%;
+  background-color: wheat;
+}
+.Services {
+  color: burlywood;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 115% 75% 25% 0%;
+  width: 100%;
+  height: 55%;
+  background-color: blanchedalmond;
+}
+.Protofilo {
+  color: burlywood;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 145% 75% 25% 0%;
+  width: 100%;
+  height: 55%;
+  background-color: papayawhip;
+}
+.Contact {
+  color: burlywood;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 175% 75% 0% 0%;
+  width: 100%;
+  height: 55%;
+  background-color: palegoldenrod;
+}
+.homeDef {
+  color: wheat;
+  font-size: 20px;
+  text-transform: capitalize;
+}
